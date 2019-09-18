@@ -1,0 +1,22 @@
+Preface for Egyptian War (Terminal Edition):
+Egyptian War is a card-game that focuses on memorization and fast reflexes. Traditionally, the game is played with physical cards, in which two or more players split the deck evenly for their starting "hands." Players are not allowed to look at their "hands," but instead, take turns placing their top cards into a center pile. If there is a pattern in this pile (which is explained below), the first player to "slap" the deck adds the entire stack of cards to their "hand." The goal is clear everyone else of their hands and be the last one left.
+
+How to Play:
+Run python3 egyptianwar.py in the terminal window to start.
+
+Controls:
+In this lite version, there are two players. Player 1 must press 'A' to place the top card of their deck into the center pile, while Player 2 must press 'K' to do the same. To slap the center pile, Player 1 must press 'S', while Player 2 must press 'L.'
+
+Rules:
+The game starts with each player having 26 cards from a traditional 52 card deck. Starting with Player 1, each player reveals the top card of their "hand." At any moment, either player can slap the deck if they find a pattern. If there's a valid match, then that player adds the cards from the center pile IN ORDER (i.e. first card played is at the top) to the bottom of their "hand." [Hint: Memorize the order, so that you can use this to your advantage.] If there isn't a valid match, then that player must discard their top 3 cards. In this version, these cards are discarded forever in order to make the game faster-paced.
+
+Patterns are as follows:
+1) Two in a row: The top two cards of the center pile must have the same rank
+2) Marriage: The top two cards must be a King and a Queen
+3) Sum of 10: The top two cards must sum to 10
+4) Sandwich: The top three cards are a "sandwich" in which the first and third cards are the same rank
+5) Top-Bottom: The top card of the pile is the same rank as the bottom card of the pile
+6) Four of the same suit: The top four cards are all of the same suit
+7) Ascending Order: The top four cards increase in consecutive order (e.g. 8->9->10->J and K->A->2->3)
+
+Note that suits are represented as either "♠" (spades), "♥" (hearts), "♦" (diamonds), or "♣" (clubs). Ranks are represented as one of "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", or "A".

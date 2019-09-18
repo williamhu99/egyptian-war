@@ -1,0 +1,9 @@
+Instructions:
+1) First install pygame by running 'pip3 install pygame' in terminal.
+2) Read the rules.txt file to understand how to play.
+3) Run 'python3 egyptianwar.py' and follow the steps there.
+4) To replay the game, just repeat step 3.
+
+To represent each card, I used a Python class to hold a rank and suit. The deck is represented by a list of cards that is shuffled using Python's random library. Each player's deck is a queue, in which the "top" card is popped off into the center pile, and future cards are added from the "bottom." In addition, I use the pygame library to read keyboard inputs in order to make the game more interactive.
+
+While designing this game, I came across many edge cases. For example, I allow the user to exit the opening screen by pressing 'X' in order to read rules, but I had to make sure that the user doesn't accidentally press 'X' later and exit out of a game. In addition, players can slap whenever they choose, but I had to make sure that when searching for the patterns, there were enough cards in the center pile for each of the valid patterns.
