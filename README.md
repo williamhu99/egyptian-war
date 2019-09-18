@@ -1,6 +1,6 @@
 # Egyptian War for Terminal
 
-Welcome to the terminal version of Egyptian War! Follow the instructions below to play.
+Welcome to the terminal version of Egyptian War! Follow the instructions below to play!
 
 ## Instructions
 
