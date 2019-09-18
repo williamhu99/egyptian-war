@@ -11,10 +11,9 @@ pip3 install pygame
 
 2. Read the rules.txt file to understand the controls.
 
-3. Run
+3. Run the following command to start the game:
 ```
 python3 egyptianwar.py
 ```
-Follow the steps there to start the game.
 
 4. To replay the game, just repeat step 3.
